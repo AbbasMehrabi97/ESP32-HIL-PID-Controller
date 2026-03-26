@@ -28,10 +28,10 @@ Unlike basic tutorial PID codes, this firmware addresses real-world industrial c
 Navigate to the `esp32_firmware` folder and flash the code using ESP-IDF:
 ```bash
 idf.py build flash
-
+```
 ### 2. MATLAB Live Tuning
-    1.Open matlab_simulation/hil_live_tuning.m.
-    2.Update the port variable to match your ESP32 (e.g., COM3 or
+    1. Open matlab_simulation/hil_live_tuning.m.
+    2. Update the port variable to match your ESP32 (e.g., COM3 or
     dev/ttyACM0).
-    3.Run the script. Play with $K_p$, $K_i$, $K_d$ parameters 
+    3. Run the script. Play with $K_p$, $K_i$, $K_d$ parameters 
     directly in the script and re-run to see the live step response!
